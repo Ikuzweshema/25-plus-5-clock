@@ -1,6 +1,6 @@
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
-export default function timeSetter(time, setTime, min, max, interval, type) {
+export default function TimeSetter({time, setTime, min, max, interval, type}) {
 
     return <div>
         <button onClick={() => (time > min ? setTime(time - interval) : null)}><FaArrowDown /></button>
