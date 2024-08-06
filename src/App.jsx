@@ -2,6 +2,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import TimeSetter from "./components/time-setter";
 import Display from "./components/display";
+import AlarmSound from "../src/assets/AlarmSound.mp3";
 const defaulBreakTime = 5 * 60;
 const defaultSession = 25 * 60;
 const min = 60;
